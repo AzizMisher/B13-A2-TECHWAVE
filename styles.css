@@ -1,7 +1,153 @@
+.inter-font{
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
-.inter-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
-  }
+.nav-container{
+    width: 1600px;
+    height: 92px;
+    padding: 24px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    background-color: #1A0B2E;
+    color: #ffffff;
+    gap: 314px;
+   
+}
+
+.nav-info ul{
+    width: 218px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-tittle{
+    width: 219px;
+    height: 32px;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.leaner-color{
+  color: rgb(251, 154, 9);
+}
+
+.nav-btn{
+    width: 135px;
+    height: 44px;
+    gap: 4px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10000px;
+    /* border: 2px solid red; */
+    background: linear-gradient(45deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+}
+
+.nav-btn i{
+    font-size: small;
+    opacity: 100%;
+    
+}
+
+.section-structure{
+    width: 1600px;
+    height: 760px;
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    padding: 80px 525px;
+    color: #ffffff;
+    
+}
+
+.container{
+    width: 550px;
+    height: 558px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    justify-items: center;
+    align-items: center;
+}
+
+/* .header-picture img{
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    margin: 0, 100,208,100;
+    
+} */
+.header-picture{
+    position: relative;
+    width: 350px;
+}
+
+.header-picture .bg{
+    width: 100%;
+}
+
+.header-picture .overlay{
+    position: absolute;
+}
+
+.header-info{
+    width: 550px;
+    height: 100px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    gap: 8px;
+}
+
+.header-info h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.header-info p{
+    font-size: 16px;
+}
+
+.header-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.btn-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 6px;
+}
+.btn-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 6px;
+}
