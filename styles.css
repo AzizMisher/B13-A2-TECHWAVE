@@ -143,6 +143,7 @@
 .header-info p{
     font-size: 16px;
     margin-bottom: 24px;
+    opacity: 60%;
 }
 
 .header-btn{
@@ -218,6 +219,7 @@
     font-size: 16px;
     text-align: center;
     line-height: 20px;
+    opacity: 60%;
 
 
 }
@@ -245,13 +247,14 @@
     text-transform: uppercase;
     color: #ffffff;
     line-height: 20px;
+    opacity: 60%;
 }
 
 .choosing-info{
     width: 1600px;
     height: 1122px;
     padding: 120px 200px;
-    background-color: #1A0B2E;
+    background-color: #230E3D;
 }
 
 .c-i-tittle{
@@ -261,3 +264,242 @@
     text-align: center;
     margin-bottom: 48px;
 }
+
+.c-i-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3);
+    gap: 30px;
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 120px;
+
+}
+
+.c-i-cards img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+
+}
+.c-i-cards h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.c-i-cards p{
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 60%;
+}
+
+.info-card-1{
+    grid-column: span 1;
+    grid-row: span 2;
+    width: 380px;
+    height: 480px;
+    padding: 40px;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    
+}
+
+.info-card-2{
+    grid-column: span 2;
+    grid-row: span 1;
+    width: 790px;
+    height: 225px;
+    padding: 40px;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+}
+.info-card-3{
+    grid-column: span 2;
+    grid-row: span 1;
+    width: 790px;
+    height: 225px;
+    padding: 40px;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    
+}
+
+.info-card-4{
+    grid-column: span 2;
+    grid-row: span 1;
+    width: 790px;
+    height: 273px;
+    padding: 40px;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+}
+
+.info-card-5{
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 380px;
+    height: 275px;
+    padding: 40px;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+}
+
+.feature{
+    width: 1600px;
+    height: 1278px;
+    padding: 120px 200px;
+    background-color: #1A0B2E;
+    color: #ffffff;
+}
+
+.feature-ep{
+    width: 1200px;
+
+}
+
+.feature-ep .feature-tittle{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.f-cards{
+    display: flex;
+    gap: 30px;
+   
+}
+.feature-card{
+    border-radius: 24px 24px;
+background: rgba(37, 13, 68, 1);
+margin-bottom: 120px;
+}
+
+.feature-card iframe{
+    border-radius: 24px 24px 0px 0px;
+    margin-bottom: 24px;
+}
+
+.feature-card .ca-info{
+    padding: 24px;
+}
+
+.feature-card .ca-info h1{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-bottom: 15px;
+}
+
+.feature-card .ca-info p{
+    font-size: 16px;
+    opacity: 60%;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.ca-info .duration{
+    display: flex;
+    gap: 6px;
+    color: #00FF88;
+    font-weight: bold;
+    
+
+}
+
+.ca-info .duration img{
+    width: 20px;
+    height: 20px;
+}
+
+.feature .meet-host .host-tittle{
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.host{
+    display: flex;
+    padding: 40px;
+    gap: 24px;
+    border-radius: 24px 24px;
+background: rgba(37, 13, 68, 1);
+}
+.host-info h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.host-info p{
+    font-size: 16px;
+    opacity: 60%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.host-info .social{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    gap: 10px;
+    
+    
+}
+
+.host-info .social img{
+    width: 15px;
+    height: 15px;
+}
+
+.footer-container{
+    width: 1600px;
+    height: 412px;
+    padding: 120px;
+    background-image: url(./assets/footer-bg.png);
+}
+
+.footer-info{
+    width: 1360px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    color: #ffffff;
+}
+
+.footer-info h1{
+    width: 410px;
+    height: 60px;
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    margin-bottom: 32px;
+ } 
+ .footer-info h6{
+    opacity: 60%;
+ }
+
+ .footer-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    
+ }
+
+ .f-i{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+ }
+ .f-i p{
+    color: #ffffff;
+    opacity: 60%;
+ }
